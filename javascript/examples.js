@@ -55,3 +55,23 @@ for (let i = 0; i < 10; i++) {
     morePeopleCount++;
 }
 console.log(morePeopleCount);
+
+function addTwo(number) {
+    return number + 2;
+}
+
+function bark() {
+    console.log("woof");
+}
+
+const meow = function() {
+    console.log("meeeow");
+}
+
+const chirp = () => {
+    console.log("chirp chirp");
+}
+
+bark();
+meow();
+chirp();
